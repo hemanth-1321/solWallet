@@ -1,13 +1,32 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a decentralized application (dApp) built with React and Vite, designed to interact with the Solana blockchain. It provides a user-friendly interface for connecting to Solana wallets, viewing account balances, and performing transactions. The app demonstrates how to integrate Solana Web3 features into a modern frontend stack, making it a great starting point for building your own blockchain-enabled applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Connect to Solana wallets (e.g., Phantom)
+- Display wallet address and SOL balance
+- Send and receive SOL tokens
+- Responsive and modern UI
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# solWallet
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open your browser at `http://localhost:5173`
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Solana Web3.js](https://solana-labs.github.io/solana-web3.js/)
+
+## License
+
+MIT
